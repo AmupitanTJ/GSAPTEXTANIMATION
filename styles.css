@@ -18,14 +18,69 @@ body{
     height: 100vh;
 }
 
-.child{
-    font-size: 5rem;
-    font-weight: 800;
-    letter-spacing: -1px;
+.child,
+.paragraph{
+    overflow: hidden;
 }
 
 .text{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    max-width: 90vw;
+
+}
+
+.main-paragraph{
     font-size: 1.5rem;
     font-weight: 400;
     opacity:0.9;
+    max-width: 80vw;
+}
+
+/* Navbar styles */
+.nav-container {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.5rem 1rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #94e75c;
+}
+
+/* responsive font-size adjustments */
+@media (max-width: 1200px) {
+    .text { font-size: 4rem; }
+    .main-paragraph { font-size: 1.3rem; }
+}
+
+@media (max-width: 768px) {
+    .text { font-size: 3rem; }
+    .main-paragraph { font-size: 1.1rem; }
+}
+
+@media (max-width: 480px) {
+    .text { font-size: 2.5rem; }
+    .main-paragraph { font-size: 1rem; }
 }
