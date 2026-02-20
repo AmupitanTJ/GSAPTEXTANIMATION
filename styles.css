@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+    color:#fff
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.child{
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    opacity:0.9;
+}
