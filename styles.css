@@ -29,7 +29,7 @@ body{
     line-height: 1.3;
     letter-spacing: -1px;
     max-width: 90vw;
-    color: #83e75c; /* default green so the effect is visible immediately */
+    color: #83e75c; 
 
 }
 
@@ -73,7 +73,7 @@ body{
 /* reset button */
 .button-box {
     position: fixed;
-    bottom: 15rem; /* a bit higher so it sits closer to the animated text */
+    bottom: 4rem; /* a bit higher so it sits closer to the animated text */
     left: 50%;
     transform: translateX(-50%);
 }

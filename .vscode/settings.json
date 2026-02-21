@@ -1,5 +1,6 @@
 {
     "chat.sendElementsToChat.attachCSS": true,
     "chat.sendElementsToChat.attachImages": true,
-    "chat.sendElementsToChat.enabled": true
+    "chat.sendElementsToChat.enabled": true,
+    "liveServer.settings.port": 5501
 }

@@ -27,7 +27,7 @@ tl.from(splitText.chars, {
 tl.to(splitText.chars, {
     color: "#83e75c",
     duration: 0.6,
-    delay: -0.6, // overlap with the previous animation
+    delay: -0.6, 
     stagger: 0.03,
     ease: "power4.inOut",
 });
